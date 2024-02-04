@@ -1,38 +1,36 @@
-import java.util.*;
-public class Calculator
-{
-    public static void main(String[] args)
-    {
-        Scanner read=new Scanner(System.in);
-        double n1,n2;
-        System.out.println("Enter two numbers : ");
-        n1=read.nextDouble();
-        n2=read.nextDouble();
-        System.out.println("1.Addition 2.Subtraction 3.Multiplication 4.Division");
+import java.util.Scanner;
+public class Calculator{
+    public static void main(String[] args){
         int choice;
-        System.out.print("Enter your choice : ");
-        choice=read.nextInt();
-        if(choice==1)
+        float a,b;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the value of a : ");
+        a = input.nextFloat();
+        System.out.print("Enter the value of b : ");
+        b = input.nextFloat();
+        System.out.print("The operations are: \n1.Subtraction, 2.Addition, 3.Multiplication,                  4.Division\n");
+        System.out.print("Enter your Choice: ");
+        choice = input.nextInt();
+        if(choice == 1)
         {
-            System.out.print("Addition of "+n1+" and "+n2+" is "+(n1+n2));
+            System.out.print("The Subtraction of "+ a +" and "+ b +" is "+(a-b));
         }
-        else if(choice==2)
+        else if(choice == 2)
         {
-            System.out.print("Subtraction of "+n1+" and "+n2+" is "+(n1-n2));
+            System.out.print("The Addition of "+ a +" and "+ b +" is "+(a+b));   
         }
-        else if(choice==3)
+        else if(choice == 3)
         {
-            System.out.print("Multiplication of "+n1+" and "+n2+" is "+(n1*n2));
+             System.out.print("The Multiplication of "+ a +" and "+ b +" is "+(a*b));
+        }
+        else if(choice == 4)
+        {
+             System.out.print("The Division of "+ a +" and "+ b +" is "+(a/b));
         }
         else
-        {
-            if(n2!=0)
-                System.out.print("Division of "+n1+" and "+n2+" is "+(n1/n2));
-            else
-            {
-                System.out.print("Can't divide by zero!");
-            }
-        }
-        read.close();
+       {
+             System.out.print(“Enter the valid choice.\n”)
+       }
+        
     }
 }
