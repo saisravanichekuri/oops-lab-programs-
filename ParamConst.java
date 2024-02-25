@@ -27,7 +27,7 @@ class student{
        }
 }
 
-public class paramconst {
+public class ParamConst {
    public static void main(String[] args) {
        Scanner input = new Scanner(System.in);
        String name;
