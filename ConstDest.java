@@ -29,7 +29,7 @@ class student{
        }
 
    }
-public class constdest {
+public class ConstDest {
    public static void main(String[] args) {
        Scanner input = new Scanner(System.in);
        String name;
