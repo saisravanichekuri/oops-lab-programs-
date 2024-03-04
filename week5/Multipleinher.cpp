@@ -7,14 +7,15 @@ class Vehicle{
     }
 };
 class Fourwheeler{
-    public: four(){
+    public:
+    void four(){
         cout<<"i am a four wheeler vehicle"<<endl;
     }
 };
 class car: public Vehicle, public Fourwheeler{};
 int main(){
     car obj;
-    car.vehicle();
-    car.four();
+    obj.vehicle();
+    obj.four();
     return 0;
 }
