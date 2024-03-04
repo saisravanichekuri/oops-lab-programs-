@@ -30,6 +30,6 @@ int main(){
     cout<<"Private Variable is "<<obj.priTemp<<endl;
     //obj.getPrivateVar();
     
-    //cout<<"Portected Variable is "<<obj.protectedVar<<endl;
-    cout<<"Portected Variable is "<<obj.proTemp<<endl;
+    //cout<<"Protected Variable is "<<obj.protectedVar<<endl;
+    cout<<"Protected Variable is "<<obj.proTemp<<endl;
 }
