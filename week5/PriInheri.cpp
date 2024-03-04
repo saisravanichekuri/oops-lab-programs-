@@ -31,5 +31,5 @@ int main(){
     //obj.getPrivateVar();
     
     //cout<<"Portected Variable is "<<obj.protectedVar<<endl;
-    cout<<"Portected Variable is "<<obj.proTemp<<endl;
+    cout<<"Protected Variable is "<<obj.proTemp<<endl;
 }
