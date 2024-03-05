@@ -7,7 +7,7 @@ class Dog extends Animal{
 class Cat extends Animal{
     void meow(){System.out.println("meowing");}
 }
-class TestInheritance{
+public class TestInheritance{
     public static void main(String args[]){
         Dog d=new Dog();
         Cat c=new Cat();
