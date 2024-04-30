@@ -6,8 +6,8 @@ public class MapInterface
     public static void main(String[] args)
     {
         Map<String, Integer> h=new HashMap<>();
-        h.put("Sai Venkat", 01);
-        h.put("Gaya3",27);
+        h.put("Sravani", 01);
+        h.put("ina",27);
         System.out.println("Hash map is : "+h);
         // Iterating over key-value pairs
         System.out.println("Key-Value pairs :");
