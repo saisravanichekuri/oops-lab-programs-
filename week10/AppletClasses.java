@@ -1,14 +1,12 @@
-import java.applet.*;
 import java.awt.*;
+import java.applet.*;
+
 /*
-    <applet code="AppletClasses.class" width="500" height="500"> </applet>
+<applet code="Demo.class" width="1000" height="1000"> </applet>
 */
-@SuppressWarnings("removal")
-public class AppletClasses extends Applet
-{
-    public void paint(Graphics g)
-    {
-        g.setFont(new Font("Arial",Font.BOLD,30));
-        g.drawString("Hello,World!", 150, 250);
-    }
+public class Demo extends Applet {
+	
+	public void paint(Graphics g) {
+		g.drawLine(10,10,300,300);
+	}
 }
